@@ -1,8 +1,8 @@
 class Bandsnatch < Formula
   desc "CLI batch downloader for your Bandcamp collection"
   homepage "https://github.com/Ovyerus/bandsnatch"
-  url "https://github.com/Ovyerus/bandsnatch/archive/v0.1.0.tar.gz"
-  sha256 "4c47449d53179cdcce01aad3b81ac87fd723902c128c365931000f4236aaf465"
+  url "https://github.com/Ovyerus/bandsnatch/archive/v0.1.1.tar.gz"
+  sha256 "9b0557c0fe6c3409ad213750e8d0c547ac5469cb54850ba540dd806e64e67ba9"
   license "MIT"
   head "https://github.com/Ovyerus/bandsnatch.git", branch: "main"
 
