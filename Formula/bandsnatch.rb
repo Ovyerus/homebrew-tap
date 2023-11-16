@@ -6,6 +6,7 @@ class Bandsnatch < Formula
   license "MIT"
   head "https://github.com/Ovyerus/bandsnatch.git", branch: "main"
 
+  depends_on "pcsc-lite"
   depends_on "rust" => :build
 
   def install
