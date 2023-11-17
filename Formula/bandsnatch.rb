@@ -7,7 +7,6 @@ class Bandsnatch < Formula
   head "https://github.com/Ovyerus/bandsnatch.git", branch: "main"
 
   depends_on "rust" => :build
-  depends_on "pcsc-lite"
 
   def install
     system "cargo", "install", *std_cargo_args

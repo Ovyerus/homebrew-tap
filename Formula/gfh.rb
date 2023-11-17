@@ -7,6 +7,7 @@ class Gfh < Formula
   head "https://github.com/Ovyerus/gfh.git", branch: "main"
 
   depends_on "rust" => :build
+  depends_on "pcsc-lite"
 
   def install
     system "cargo", "install", *std_cargo_args
