@@ -17,7 +17,7 @@ class Gfh < Formula
     output = shell_output("#{bin}/gfh --help")
     assert_match "Git FIDO helper - use multiple FIDO keys to sign Git commits", output
 
-    output2 = shell_output("#{bin}/gfh-keygen")
+    output2 = shell_output("#{bin}/gfh-keygen", 101)
     assert_match "git did not provide -f somehow", output2
   end
 end
