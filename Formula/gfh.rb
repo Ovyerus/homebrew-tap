@@ -6,6 +6,12 @@ class Gfh < Formula
   license "MIT"
   head "https://github.com/Ovyerus/gfh.git", branch: "main"
 
+  bottle do
+    root_url "https://ghcr.io/v2/ovyerus/tap"
+    sha256 cellar: :any_skip_relocation, monterey:     "fe02b19e454c2e881a8845c40c395fbb30fe5e9414014dbeb5df37585e3f44f6"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "c7ccd8eb5d8bcb257f331e38a0b779a373a888772836a5baf366c0e23d943eb4"
+  end
+
   depends_on "rust" => :build
   depends_on "pcsc-lite"
 
